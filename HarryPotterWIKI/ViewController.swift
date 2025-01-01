@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+
+        
         charctersTableView.delegate = self
         charctersTableView.dataSource = self
         charctersTableView.register(UINib(nibName: "CharactersTableViewCell", bundle: nil), forCellReuseIdentifier: "cellIdentifier")

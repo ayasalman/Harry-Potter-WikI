@@ -34,7 +34,7 @@ class DetailsViewController: UIViewController {
 }
 
 
-
+/*
 class Line: UIView {
 
     var line = UIBezierPath()
@@ -53,3 +53,4 @@ class Line: UIView {
         drawLine()
     }
 }
+*/
